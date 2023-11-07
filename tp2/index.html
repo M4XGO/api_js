@@ -1,0 +1,39 @@
+<!-- FILEPATH: /c:/Users/Maxime/Desktop/ESGI/JavaScript/tp2/index.html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulaire Bootstrap</title>
+        <link rel="stylesheet" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Formulaire Bootstrap</h1>
+            <form>
+                <div class="form-group">
+                    <label for="addresse">Adresse :</label>
+                    <input id="address" type="text" list="addresList" class="form-control" placeholder="Entrez votre addresse">
+                    <datalist id="addresList">
+                        <option value="1 rue de la paix"></option>
+                        <option value="12 rue de la paix"></option>
+                        <option value="13 rue de la paix"></option>
+                        <option value="14 rue de la paix"></option>
+                        <option value="15 rue de la paix"></option>
+                    </datalist>
+                </div>
+                <div class="form-group">
+                    <label for="cp">Code Postal :</label>
+                    <input type="text" class="form-control" id="cp" placeholder="Entrez votre Code Postal">
+                </div>
+                <div class="form-group">
+                    <label for="ville">Ville :</label>
+                    <input type="text" class="form-control" id="ville" placeholder="Entrez votre ville">
+                </div>
+                
+            </form>
+        </div>
+        <script src="./../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>
