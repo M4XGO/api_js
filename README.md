@@ -16,3 +16,10 @@ Créer une api qui permettre de gérer la gestion des formations last minute :
 - Validation de l'admin
 - Heure de début 
 - Titre... 
+
+
+# Architecture du repo 
+
+- ### TP1 -> TP Feux tricolor
+- ### TP2 -> TP Complétions d'adresses
+- ### TP1 -> TP Création d'une API
