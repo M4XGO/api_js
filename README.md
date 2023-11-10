@@ -10,3 +10,9 @@ https://heady-legal-e2d.notion.site/Rappel-des-fondamentaux-JavaScript-ea9700110
 ## Rendu -> 
 Rendre TP2 avec moins d'utilisation de web client
 Rendre TP3, a voir le 10/11/23
+
+Créer une api qui permettre de gérer la gestion des formations last minute : 
+- Inscription des formateurs sur des formations 
+- Validation de l'admin
+- Heure de début 
+- Titre... 
