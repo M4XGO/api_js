@@ -2,11 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Document</title>
 </head>
 <body>
-    <p>Start</p>
+    <div class="container">
+        <h2 class="fs-1">Formations</h2>
+    
+        <div id="button-container" class="mt-5"></div>
+        <table class="mt-5 table" id="formation-info">
+            <thead>
+              <tr>
+                <th scope="col">Formation</th>
+                <th scope="col">Titre</th>
+                <th scope="col">Prix</th>
+                <th scope="col">Descriptions</th>
+                <th scope="col">Lieux</th>
+                <th scope="col">Assigné</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td id="title">Ø</td>
+                <td id="price">Ø</td>
+                <td id="desc">Ø</td>
+                <td id="add">Ø</td>
+                <td id="assigned">Ø</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2 class="fs-1 mt-5">Créer une formation</h2>
+            <form class="mt-5">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Titre</label>
+                    <input type="text" class="form-control" id="title" aria
+
+    </div>
+    <script src="./../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./index.js"></script>
     
 </body>

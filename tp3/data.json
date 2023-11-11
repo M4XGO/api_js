@@ -1,7 +1,4 @@
-const express = require('express')
-const cors = require('cors')
-const app = express()
-const formations = [
+[
     {
         "id": "Ghkkotouof50ntgon568nfriuh!@Gijgtiu",
         "title": "CDA",
@@ -57,7 +54,7 @@ const formations = [
             "company": "ESGI",
             "address": "69 avenue Tony Garnier 69007"
         },
-        "price": "400€/jour",
+        "price": "200€/jour",
         "assigned": {},
         "applicants": [
             {
@@ -68,35 +65,4 @@ const formations = [
             }
         ]
     }
-
 ]
-
-const port = 3000
-app.use(cors())
-app.get('/formations', (req, res) => {res.send(formations)});
-
-//avoir un produit par son id
-app.get('/formations/:id', (req, res) => {
-    const id = req.params.id
-    const formation = formations.find(formation => formation.id === id)
-    if (formation) {
-        res.send(formation)
-    } else {
-        res.status(404).send('Formation not found')
-    }
-})
-
-app.listen(port, () => console.log(`the server is listening on port ${port}!`))
-
-
-// app.get('/formation/:id', (req, res) => {
-//     const id = parseInt(req.params.id)
-//     const formation = formation.find(product => formation.id === id)
-//     if (formation) {
-//         res.send(formation)
-//     } else {
-//         res.status(404).send('Product not found')
-//     }
-// })
-
-// app.listen(port, () => console.log(`the server is listening on port ${port}!`))
